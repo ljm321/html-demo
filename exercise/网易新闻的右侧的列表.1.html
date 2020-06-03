@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易新闻的右侧的列表</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style >
+        body{
+            background-color: #bfa;
+        }
+
+        .tiYu{
+            width: 300px;
+            height: 325px;
+            margin: 27px auto;
+        }
+
+        .tiYu .title{
+            border-top: solid 1px #333;
+            height: 41px;
+            line-height: 41px;
+        }
+
+        .liPiao li{       
+            height: 30px;
+            font-size: 17px;
+            color: #DDDD;
+            line-height: 30px;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 17px;
+            color: #666666;
+        }
+
+        .title a{
+            font-size: 17px;
+            color: #404040;
+        }
+
+        div .liPiao{
+            padding-left: 17px;
+            list-style-type: square;
+        }
+
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="tiYu">
+        <h2 class="title">
+            <a href="#">体育</a>
+        </h2>
+
+        <div class="tuPing">
+            <a href="#">
+                <img src="./img/02/1.webp" alt='碎骨机"昂塞尔德去世 享年74岁'>
+            </a>
+        </div>
+
+        <ul class="liPiao">
+            <li><a href="#">乔治:我爱LA 喜欢和LBJ一起打球</a></li>
+            <li><a href="#">格林:3年前降薪就在等KD 特制T恤嘲</a></li>
+            <li><a href="#">塔克4000双鞋让保罗羡慕嫉妒 乔丹</a></li>
+            <li><a href="#">CBA下季新赛制:常规赛4组循环 增至</a></li>
+        </ul>
+    </div>
+</body>
+</html>
